@@ -8,9 +8,9 @@
 *.cpp  text
 *.hpp  text
 *.txt  text
-*.rs   text
-*.toml text
-*.lock binary
+*.rs       text eol=lf
+Cargo.toml text eol=lf
+Cargo.lock text eol=lf
 
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
