@@ -16,10 +16,8 @@ fn contains_three_vowels(word: &str) -> bool {
 fn contains_double_letter(word: &str) -> bool {
     let mut previous = '\0';
     for c in word.chars() {
-        if previous != '\0' {
-            if c == previous {
-                return true;
-            }
+        if previous != '\0' && c == previous {
+            return true;
         }
         previous = c;
     }
@@ -53,7 +51,7 @@ fn contains_double_pair(word: &str) -> bool {
         let e = m.get(&pair);
         if e.is_some_and(|pos| i - pos > 1) {
             return true;
-        } else if !e.is_some() {
+        } else if e.is_none() {
             m.insert(pair, i);
         }
         previous = c;
