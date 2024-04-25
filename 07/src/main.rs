@@ -251,7 +251,7 @@ NOT y -> i"
     #[test]
     fn test_execute_program() {
         let p = parse_input(get_sample_input());
-        let wires = execute_program(p);
+        let wires = execute_program(&p);
         assert_eq!(wires.m.len(), 8);
         assert_eq!(wires.value("d"), 72);
         assert_eq!(wires.value("e"), 507);

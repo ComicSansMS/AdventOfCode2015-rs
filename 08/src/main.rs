@@ -100,8 +100,6 @@ fn answer2(input: &str) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use std::ops::ShlAssign;
-
     use crate::*;
 
     fn test_string() -> &'static str {

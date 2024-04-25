@@ -161,7 +161,7 @@ mod tests {
 
     #[test]
     fn test_process_instruction() {
-        let mut f = [[0; 1000]; 1000];
+        let mut f = Field::new();
         process_instruction(
             &mut f,
             &Instruction {
@@ -172,7 +172,7 @@ mod tests {
         );
         for iy in 0..1000 {
             for ix in 0..1000 {
-                assert_eq!(f[iy][ix], 1);
+                assert_eq!(f.get(ix, iy), 1);
             }
         }
         process_instruction(
@@ -185,7 +185,7 @@ mod tests {
         );
         for iy in 0..1000 {
             for ix in 0..1000 {
-                assert_eq!(f[iy][ix], if iy == 0 { 0 } else { 1 });
+                assert_eq!(f.get(ix, iy), if iy == 0 { 0 } else { 1 });
             }
         }
     }
