@@ -98,7 +98,7 @@ impl Graph {
         panic!("No edge from {} to {}", from, to);
     }
 
-    fn path_length(&self, path: &Vec<(usize, &String)>) -> i64 {
+    fn path_length(&self, path: &[(usize, &String)]) -> i64 {
         let mut current_city = None;
         let mut distance_travelled = 0;
         for (next_city, _) in path {
