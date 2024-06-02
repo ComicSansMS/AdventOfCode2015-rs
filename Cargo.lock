@@ -20,6 +20,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "corporate_policy"
+version = "0.1.0"
+
+[[package]]
 name = "doesnt_he_have_internelves_for_this"
 version = "0.1.0"
 
@@ -28,6 +32,10 @@ name = "either"
 version = "1.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a47c1c47d2f5964e29c61246e81db715514cd532db6b5116a25ea3c03d6780a2"
+
+[[package]]
+name = "elves_look_elves_say"
+version = "0.1.0"
 
 [[package]]
 name = "i_was_told_there_would_be_no_math"

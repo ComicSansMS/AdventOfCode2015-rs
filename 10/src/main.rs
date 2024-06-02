@@ -1,5 +1,4 @@
 fn main() {
-    println!("Hello, world!");
     let input = std::fs::read_to_string("input").expect("Error reading input");
     let mut s: String = input.trim().to_string();
     for _ in 0..40 {
