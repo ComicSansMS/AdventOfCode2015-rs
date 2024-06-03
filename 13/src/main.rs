@@ -1,4 +1,4 @@
-use std::{collections::HashMap, hash::Hash};
+use std::collections::HashMap;
 
 fn main() {
     let input = std::fs::read_to_string("input").expect("Error reading input");
@@ -57,10 +57,11 @@ fn evaluate_arrangement(inp: &Input, arrangement: &[usize]) -> i64 {
 fn find_optimal_arrangement(inp: &Input) -> i64 {
     use itertools::*;
     let n_guests = inp.names.len();
-    let max_arrangement = (0..n_guests)
+    (0..n_guests)
         .permutations(n_guests)
-        .max_by_key(|arrangement| evaluate_arrangement(inp, &arrangement) );
-    evaluate_arrangement(inp, &max_arrangement.unwrap())
+        .map(|arrangement| evaluate_arrangement(inp, &arrangement))
+        .max()
+        .unwrap()
 }
 
 #[cfg(test)]
