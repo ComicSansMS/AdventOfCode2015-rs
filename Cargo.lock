@@ -24,6 +24,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "aunt_sue"
+version = "0.1.0"
+dependencies = [
+ "regex",
+]
+
+[[package]]
 name = "corporate_policy"
 version = "0.1.0"
 
