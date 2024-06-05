@@ -2,7 +2,7 @@ fn main() {
     let input = std::fs::read_to_string("input").expect("Error reading input file");
     let ingredients = parse_input(&input);
     println!("Answer #1 is {}", highest_score(&ingredients));
-    println!("Answer #1 is {}", highest_score_500cal(&ingredients));
+    println!("Answer #2 is {}", highest_score_500cal(&ingredients));
 }
 
 #[derive(Debug, PartialEq)]

@@ -2,8 +2,7 @@ fn main() {
     let input = std::fs::read_to_string("input").expect("Error reading input file");
     let reindeers = parse_input(&input);
     println!("Answer #1 is {}", winner_after(&reindeers, 2503));
-    println!("Answer #1 is {}", new_score(&reindeers, 2503));
-    //1089 too low
+    println!("Answer #2 is {}", new_score(&reindeers, 2503));
 }
 
 #[derive(Debug, PartialEq, Eq)]
