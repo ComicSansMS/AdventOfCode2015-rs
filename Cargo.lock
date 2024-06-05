@@ -139,6 +139,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "science_for_hungry_people"
+version = "0.1.0"
+dependencies = [
+ "regex",
+]
+
+[[package]]
 name = "some_assembly_required"
 version = "0.1.0"
 dependencies = [
