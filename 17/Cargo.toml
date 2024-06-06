@@ -1,0 +1,6 @@
+[package]
+name = "no_such_thing_as_too_much"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
