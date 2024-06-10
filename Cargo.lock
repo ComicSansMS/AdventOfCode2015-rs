@@ -79,6 +79,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "like_a_gif_for_your_yard"
+version = "0.1.0"
+
+[[package]]
 name = "matchsticks"
 version = "0.1.0"
 
@@ -93,6 +97,10 @@ name = "memchr"
 version = "2.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
+
+[[package]]
+name = "no_such_thing_as_too_much"
+version = "0.1.0"
 
 [[package]]
 name = "not_quite_lisp"
