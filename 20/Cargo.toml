@@ -1,0 +1,6 @@
+[package]
+name = "infinite_elves_and_infinite_houses"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

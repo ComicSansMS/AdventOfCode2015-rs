@@ -53,6 +53,10 @@ name = "i_was_told_there_would_be_no_math"
 version = "0.1.0"
 
 [[package]]
+name = "infinite_elves_and_infinite_houses"
+version = "0.1.0"
+
+[[package]]
 name = "itertools"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
