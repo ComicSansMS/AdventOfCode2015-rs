@@ -162,6 +162,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "rpg_simulator_20xx"
+version = "0.1.0"
+dependencies = [
+ "itertools 0.13.0",
+]
+
+[[package]]
 name = "science_for_hungry_people"
 version = "0.1.0"
 dependencies = [
