@@ -115,6 +115,10 @@ name = "not_quite_lisp"
 version = "0.1.0"
 
 [[package]]
+name = "opening_the_turing_lock"
+version = "0.1.0"
+
+[[package]]
 name = "perfectly_spherical_houses_in_a_vacuum"
 version = "0.1.0"
 
