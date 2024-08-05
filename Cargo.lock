@@ -87,6 +87,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "let_it_snow"
+version = "0.1.0"
+
+[[package]]
 name = "like_a_gif_for_your_yard"
 version = "0.1.0"
 
